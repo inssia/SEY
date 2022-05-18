@@ -1,9 +1,9 @@
 .SEYgrey {
-    color: #AAA7AE;
+    color: #AAA7AE !important;
 }
 
 .SEYpurple {
-    color: #E37EF5;
+    color: #E37EF5 !important;
 }
 
 .hero-has-background {
@@ -12,4 +12,30 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.navbar-item:hover {
+    background-color: grey !important; 
+    color: black !important;
+}
+
+.has-background-SEYgrey {
+    background-color: #AAA7AE;
+}
+.has-background-SEYpurple {
+    background-color: #E37EF5;
+}
+
+.has-background-mypurple {
+    background-color: #CB6CE6;
+}
+
+.button:hover {
+    background-color: white !important;
+    color: #E37EF5 !important;
+}
+
+.SEYbutton {
+    background-color: #E37EF5 !important;
+    color: white !important;
 }
