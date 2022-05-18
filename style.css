@@ -14,6 +14,14 @@
     background-size: cover;
 }
 
+.about-us-hero-has-background {
+    background-image: url("images/aboutus.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .navbar-item:hover {
     background-color: grey !important; 
     color: black !important;
