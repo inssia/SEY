@@ -1,3 +1,15 @@
-h1 {
-    color: blue;
+.SEYgrey {
+    color: #AAA7AE;
+}
+
+.SEYpurple {
+    color: #E37EF5;
+}
+
+.hero-has-background {
+    background-image: url("images/edmonton.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
