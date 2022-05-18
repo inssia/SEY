@@ -28,7 +28,7 @@
 }
 
 .has-background-SEYgrey {
-    background-color: #AAA7AE;
+    background-color: #AAA7AE !important;
 }
 .has-background-SEYpurple {
     background-color: #E37EF5;
@@ -46,4 +46,12 @@
 .SEYbutton {
     background-color: #E37EF5 !important;
     color: white !important;
+}
+
+.impact-pics {
+    float: left !important;
+    width:  450px !important;
+    height: 370px !important;
+    background-size: cover !important;
+    margin-bottom: 0 !important;
 }
