@@ -22,6 +22,14 @@
     background-size: cover;
 }
 
+.projects-hero-has-background {
+    background-image: url("images/projects.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .navbar-item:hover {
     background-color: grey !important; 
     color: black !important;
