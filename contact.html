@@ -36,7 +36,7 @@
                     <a class="navbar-item has-text-white is-size-5 has-text-semibold">
                       Projects
                     </a>
-                    <a class="navbar-item has-text-white is-size-5 has-text-semibold" href="contact.html">
+                    <a class="navbar-item has-text-white is-size-5 has-text-semibold" href="contact.php">
                       Contact
                     </a>
                     
@@ -58,32 +58,34 @@
             We'd love to hear your thoughts! Use the form below, or reach out at <a href = "mailto:s.edmontonyouth@gmail.com?subject = Feedback web">s.edmontonyouth@gmail.com</a>
         </p>
 
+
     <div class="field">
+      <form
+  action="https://formsubmit.co/s.edmontonyouth@gmail.com"
+  method="POST"
+  id="my_form"
+>
         <label class="label">Name</label>
         <div class="control">
-          <input class="input" type="text" placeholder="Text input">
+          <input id="Name" name="Name" class="input" type="text" placeholder="Text input">
         </div>
       </div>
       
       <div class="field">
         <label class="label">Email</label>
         <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+          <input id="Email" name="email" class="input" type="email" placeholder="hello@gmail.com">
           <span class="icon is-small is-left">
             <i class="fa fa-envelope"></i>
           </span>
-          <span class="icon is-small is-right">
-            <i class="fa fa-exclamation-triangle"></i>
-          </span>
         </div>
-        <p class="help is-danger">This email is invalid</p>
       </div>
       
       <div class="field">
         <label class="label">Subject</label>
         <div class="control">
           <div class="select">
-            <select>
+            <select id="contact reason" name="contact reason">
               <option>General Inquiry</option>
               <option>Feedback</option>
               <option>Volunteer</option>
@@ -97,17 +99,20 @@
       <div class="field">
         <label class="label">Message</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Enter your message!"></textarea>
+          <textarea id="Message" name="Message" class="textarea" placeholder="Enter your message!"></textarea>
         </div>
       </div>
+
+      <input type="hidden" name="_next" value="contact.html">
+      <input type="text" name="_honey" style="display:none">
+
+
     
       
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-link">Submit</button>
-        </div>
-        <div class="control">
-          <button class="button is-link is-light">Cancel</button>
+          <button id='submit' class="button is-link">Submit</button>
+
         </div>
       </div>
       </section>
