@@ -35,6 +35,10 @@
     color: black !important;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .has-background-SEYgrey {
     background-color: #AAA7AE !important;
 }
